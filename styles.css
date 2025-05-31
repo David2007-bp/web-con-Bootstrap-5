@@ -20,6 +20,8 @@ p{
   width: 350px;
   display: flex;
   flex-direction: column;
+  border-radius: 0.75rem; 
+
 }
 
 .title {
@@ -35,7 +37,7 @@ p{
 }
 
 .group {
-  position: absolute;
+  position: relative;
 }
 
 .form .group label {
