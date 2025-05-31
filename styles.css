@@ -13,6 +13,45 @@ p{
 }
 /* formulario */
 
+.formulario{
+    max-width: 500px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.formulario h2{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.campo{
+    margin-bottom: 20px;
+}
+input[type="text"],
+input[type="email"],
+textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+input[type="submit"]{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #006eb3;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background-color: #007bff;
+    box-shadow: 0 0 10px rgba(0, 162, 255, 0.9);
+}
+
 
     /* fin formulario */
 }
