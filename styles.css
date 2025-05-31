@@ -32,11 +32,11 @@ p{
   margin-top: 20px;
   display: flex;
   flex-direction: column;
-    margin: 0 auto;
 }
 
 .group {
   position: relative;
+  margin: 0 auto;  
 }
 
 .form .group label {
