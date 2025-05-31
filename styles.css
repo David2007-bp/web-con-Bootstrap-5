@@ -13,6 +13,7 @@ p{
 }
 /* formulario */
 
+
 .formulario{
     max-width: 500px;
     margin: 50px auto;
@@ -51,7 +52,6 @@ input[type="submit"]:hover{
     background-color: #007bff;
     box-shadow: 0 0 10px rgba(0, 162, 255, 0.9);
 }
-
 
     /* fin formulario */
 }
