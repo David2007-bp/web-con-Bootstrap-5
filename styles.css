@@ -13,91 +13,107 @@ p{
 }
 /* formulario */
 
-.card {
-  background-color: #fff;
-  border-radius: 10px;
-  padding: 20px;
-  width: 350px;
-  display: flex;
-  flex-direction: column;
-}
-
-.title {
-  font-size: 24px;
-  font-weight: 600;
-  text-align: center;
-}
-
+/* From Uiverse.io by aadium */ 
 .form {
-  margin-top: 20px;
   display: flex;
+  align-items: center;
   flex-direction: column;
+  gap: 10px;
+  background-image: linear-gradient(45deg, #330808, 
+  #3a2c09);
+  border-radius: 2.5em;
+  padding: 30px;
+  width: 300px;
+  height: 350px;
 }
 
-.group {
-  position: relative;
-}
-
-.form .group label {
-  font-size: 14px;
-  color: rgb(99, 102, 102);
+.form::before {
+  content: '';
+  background-image: linear-gradient(45deg, #ff0000, 
+  #ffb700);
+  height: 358px;
+  width: 309px;
   position: absolute;
-  top: -10px;
-  left: 10px;
-  background-color: #fff;
-  transition: all .3s ease;
+  margin-top: -34px;
+  margin-left: px;
+  z-index: -1;
+  border-radius: 2.7em;
 }
 
-.form .group input,
-.form .group textarea {
-  padding: 10px;
-  border-radius: 5px;
-  border: 1px solid rgba(0, 0, 0, 0.2);
-  margin-bottom: 20px;
-  outline: 0;
-  width: 100%;
-  background-color: transparent;
-}
-
-.form .group input:placeholder-shown+ label, .form .group textarea:placeholder-shown +label {
-  top: 10px;
-  background-color: transparent;
-}
-
-.form .group input:focus,
-.form .group textarea:focus {
-  border-color: #3366cc;
-}
-
-.form .group input:focus+ label, .form .group textarea:focus +label {
-  top: -10px;
-  left: 10px;
-  background-color: #fff;
-  color: #3366cc;
-  font-weight: 600;
-  font-size: 14px;
-}
-
-.form .group textarea {
-  resize: none;
-  height: 100px;
-}
-
-.form button {
-  background-color: #3366cc;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  padding: 10px;
-  font-size: 16px;
+.button {
+  margin-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  background: #ff5900;
+  color: black;
+  padding: 0.7em 5.5em;
+  display: flex;
+  align-items: center;
+  border: 2px solid #66da4300;
+  border-radius: 5em;
+  overflow: hidden;
+  transition: all 0.2s;
   cursor: pointer;
-  transition: all 0.3s ease;
 }
-p{
-    text-align: center;
+
+.button:hover {
+  border: 2px solid #ff5900;
+  background: #00000000;
+  color: #ff5900;
 }
-.form button:hover {
-  background-color: #27408b;
+
+.button:active {
+  border: 2px solid #66da4300;
+  background: #ff5900;
+  color: black;
+}
+
+.input {
+  width: calc(100% - 10px);
+  padding: 8px;
+  margin-bottom: 20px;
+  border: 1px solid #66da4300;
+  border-bottom: 1px solid #ff5900;
+  outline: none;
+  background-color: transparent;
+  color: #ff5900;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: 0.2s;
+}
+
+.input:focus {
+  border: 1px solid #66da4300;
+  border-bottom: 1px solid #ff5900;
+  background-color: transparent;
+  color: white;
+}
+
+.input::placeholder {
+  color: #9b725b;
+}
+
+.textarea {
+  font-family: Arial, Helvetica, sans-serif;
+  width: calc(100% - 10px);
+  padding: 8px;
+  height: 100px;
+  margin-bottom: 20px;
+  border: 1px solid #66da4300;
+  border-bottom: 1px solid #ff5900;
+  outline: none;
+  background-color: transparent;
+  color: #ff5900;
+}
+
+.textarea::placeholder {
+  color: #9b725b;
+}
+
+.textarea:focus {
+  border: 1px solid #66da4300;
+  border-bottom: 1px solid #ff5900;
+  background-color: transparent;
+  color: white;
 }
 
     /* fin formulario */
