@@ -20,7 +20,6 @@ p{
   width: 350px;
   display: flex;
   flex-direction: column;
-   padding: 2rem;  
 }
 
 .title {
