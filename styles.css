@@ -35,8 +35,7 @@ p{
 }
 
 .group {
-  position: relative;
-  margin: 0 auto;  
+  position: absolute;
 }
 
 .form .group label {
