@@ -14,13 +14,12 @@ p{
 
 /* formulario */
 
- .card {
-  margin: auto;
+/* From Uiverse.io by Yaya12085 */ 
+.card {
   background-color: #fff;
   border-radius: 10px;
   padding: 20px;
   width: 350px;
-  margin: 50px auto;  
   display: flex;
   flex-direction: column;
 }
@@ -99,9 +98,6 @@ p{
 
 .form button:hover {
   background-color: #27408b;
-}
-p}
-    text-aling: center;
 }
 
     /* fin formulario */
