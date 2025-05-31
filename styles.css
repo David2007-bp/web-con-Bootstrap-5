@@ -15,11 +15,13 @@ p{
 /* formulario */
 
 .card {
+    
   margin: auto;  
   background-color: #fff;
   border-radius: 10px;
   padding: 20px;
-  width: 350px;
+  max-width: 350px;
+  margin: 50px auto;  
   display: flex;
   flex-direction: column;
 }
