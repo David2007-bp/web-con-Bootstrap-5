@@ -11,6 +11,7 @@
 p{
     text-align: center;
 }
+
 /* formulario */
 
 .card {
@@ -97,7 +98,7 @@ p{
 .form button:hover {
   background-color: #27408b;
 }
-p{
+p}
     text-aling: center;
 }
 
