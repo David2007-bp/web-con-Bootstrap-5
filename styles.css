@@ -29,10 +29,9 @@ p{
 }
 
 .form {
-  margin-top: 20px;
+  margin: 0 auto;
   display: flex;
-  flex-direction: column;
-  margin: 0 auto;  
+  flex-direction: column; 
 }
 
 .group {
