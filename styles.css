@@ -97,6 +97,9 @@ p{
 .form button:hover {
   background-color: #27408b;
 }
+p{
+    text-aling: center;
+}
 
     /* fin formulario */
 }
