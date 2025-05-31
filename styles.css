@@ -12,7 +12,7 @@ p{
     text-align: center;
 }
 /* formulario */
-/* From Uiverse.io by Yaya12085 */ 
+
 .card {
   background-color: #fff;
   border-radius: 10px;
@@ -94,11 +94,12 @@ p{
   transition: all 0.3s ease;
 }
 p{
-    text-aling: center;
+    text-align: center;
 }
 .form button:hover {
   background-color: #27408b;
 }
+
 
     /* fin formulario */
 }
